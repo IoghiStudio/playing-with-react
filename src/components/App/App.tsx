@@ -59,7 +59,7 @@ export class App extends React.Component<{}, State> {
     console.log('App rendered')
   
     return (
-      <div>
+      <div className='app'>
         <table>
           <tr>
             <td>
