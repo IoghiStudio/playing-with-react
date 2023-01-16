@@ -30,7 +30,7 @@ const PeopleList: React.FC<Props> = ({ people, removePerson }) => {
                 removePerson(person);
               }}
             >
-              --
+              -
             </button>
           </td>
         </tr>
