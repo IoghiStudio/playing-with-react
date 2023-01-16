@@ -13,14 +13,16 @@ const PeopleList: React.FC<Props> = ({ people, removePerson }) => {
     <table>
       <thead>
         <tr>
-          <th>remove</th>
           <th>Name</th>
           <th>Age</th>
+          <th>remove</th>
         </tr>
       </thead>
       <tbody>
       {people.map(person => (
         <tr key={person.name}>
+          <th>{person.name}</th>
+          <th>{person.age}</th>
           <td>
             <button
               type="button"
@@ -31,8 +33,6 @@ const PeopleList: React.FC<Props> = ({ people, removePerson }) => {
               --
             </button>
           </td>
-          <th>{person.name}</th>
-          <th>{person.age}</th>
         </tr>
       ))}
       </tbody>
