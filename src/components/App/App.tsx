@@ -11,8 +11,6 @@ type State = {
   personAge: number;
 }
 
-
-
 export class App extends React.Component<{}, State> {
   state = {
     counter: 0,
