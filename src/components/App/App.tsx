@@ -41,10 +41,10 @@ export class App extends React.Component<{}, State> {
       this.setState((state) => ({
         people: [
           ...state.people,
-          newPerson,
-        ],
-      }));
-  
+          newPerson
+        ]
+      }))
+
       this.setState({
         personName: '',
         personAge: 0,
