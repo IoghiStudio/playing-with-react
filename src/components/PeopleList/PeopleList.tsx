@@ -23,7 +23,7 @@ const PeopleList: React.FC<Props> = ({ people, removePerson }) => {
               --
             </button>
           </td>
-          <th>{person.name} is {person.age}</th>
+          <th>! {person.name} is {person.age} !</th>
         </tr>
       ))}
     </table>
