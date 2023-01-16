@@ -1,6 +1,6 @@
 {
-  "name": "learn",
-  "homepage": "./build",
+  "name": "playing-with-react",
+  "homepage": "https://IoghiSudio.github.io/playing-with-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
